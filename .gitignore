@@ -1,0 +1,83 @@
+
+# ==============================
+# Python temporary files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+build/
+dist/
+
+# ==============================
+# Jupyter Notebook temporary files
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==============================
+# Model checkpoints and weights
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.keras
+
+# ==============================
+# Datasets and downloaded data
+# ==============================
+data/
+datasets/
+raw_data/
+processed_data/
+cache/
+huggingface_cache/
+
+# ==============================
+# Generated predictions and submissions
+# ==============================
+submissions/
+*_submissions/
+submission.zip
+predictions/
+outputs/
+
+# ==============================
+# Logs and experiment tracking
+# ==============================
+*.log
+logs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# ==============================
+# Credentials and environment files
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE settings
+# ==============================
+.vscode/
+.idea/
