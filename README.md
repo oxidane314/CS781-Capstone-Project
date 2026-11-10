@@ -152,7 +152,7 @@ The implementation uses the provided splits for model training, validation, expe
 **Objective:** Generate abstractive summaries of legal judgments while retaining their important information.
 
 **Methodology:**
-- Use the Phase 1 language models as encoder/decoder backbones.
+- Use the Phase 1 decoder-only language models as the summarisation backbone.
 - Select important source sentences using an importance-based selector.
 - Preserve the original order of selected sentences.
 - Fine-tune the language model using source-summary training pairs.
